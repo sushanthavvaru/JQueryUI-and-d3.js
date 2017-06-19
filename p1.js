@@ -250,7 +250,7 @@ $('document').ready(function(){
                   dob.setDate($('[name="date"]').val());
                   dob.setFullYear($('[name="year"]').val());
                   
-                  var ref = new Date("Jan 1, 2016");
+                  var ref = new Date("Jan 1, 2017");
                   var diff_year = ref.getFullYear() - dob.getFullYear();
                   var diff_month = ref.getMonth() - dob.getMonth();
                   var diff_day = ref.getDate() - dob.getDate();
