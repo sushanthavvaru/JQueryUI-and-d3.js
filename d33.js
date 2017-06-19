@@ -1,7 +1,7 @@
 $('document').ready(function(){
 	d3.select("#drawings").append("p").style("color", "black").text("This text is writeen using d3.js");
 	
-	d3.select("#drawings").append("p").style("color", "black").text("Circel Animation using transition");
+	d3.select("#drawings").append("p").style("color", "black").text("Circle Animation using transition");
 	var canvas = d3.select("#drawings").append("svg").attr("width", 500).attr("height",500);
 	var circle = canvas.append("circle").attr("cx",250).attr("cy",250).attr("r",50).attr("fill", "hotpink");	
 	var line = canvas.append("line").attr("x1",0).attr("y1",0).attr("x2",500).attr("y2",500).attr("stroke","blue").attr("stroke-width", 5);
